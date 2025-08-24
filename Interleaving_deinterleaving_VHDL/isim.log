@@ -1,0 +1,37 @@
+ command line:
+   ./combined_interleaver_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  58492
+
+Fri May 16 09:26:37 2025
+
+Total Line Count = 507
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 73.1177 Meg. 
+
+ Total signals 26
+ Total nets 67
+ Total signal drivers 13
+ Total blocks 4
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /combined_interleaver/clk 
+ntrace select -o on -n /combined_interleaver/reset 
+ntrace select -o on -n /combined_interleaver/mode 
+ntrace select -o on -n /combined_interleaver/data_in1 
+ntrace select -o on -n /combined_interleaver/data_in2 
+ntrace select -o on -n /combined_interleaver/data_in3 
+ntrace select -o on -n /combined_interleaver/data_in4 
+ntrace select -o on -n /combined_interleaver/data_out 
+ntrace select -o on -n /combined_interleaver/di_data_in 
+ntrace select -o on -n /combined_interleaver/di_data_out1 
+ntrace select -o on -n /combined_interleaver/di_data_out2 
+ntrace select -o on -n /combined_interleaver/di_data_out3 
+ntrace select -o on -n /combined_interleaver/di_data_out4 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
